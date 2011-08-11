@@ -1,2 +1,2 @@
-A short intro presentation into node.js, with a few code samples
+A short intro presentation about node.js, with a few code samples
 
