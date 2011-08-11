@@ -35,15 +35,23 @@ app.get('/', function(req, res){
   });
 });
 
+app.get('/foo/:id', function(req, res) {
+  res.send('you said: ' + req.params.id);
+});
+
 app.listen(3000);
+
+// Socket.IO server
+
 var sio = io.listen(app);
 
 sio.sockets.on('connection', function(socket) {
   console.log('someone connected');
 
   socket.on('new', function(data) {
-    console.log('should be emitting something...');
     sio.sockets.emit('image', data);
   });
+
 });
+
 console.log("Express server listening on port %d", app.address().port);

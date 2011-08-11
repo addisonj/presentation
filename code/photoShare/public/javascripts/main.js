@@ -19,8 +19,8 @@ function handleFileSelect(evt) {
 
     // Closure to capture the file information.
     reader.onload = (function(theFile) {
-      return function(e) {
-        socket.emit('new', { url: e.target.result, title: theFile.name });
+      return function(evt) {
+        socket.emit('new', { url: evt.target.result, title: theFile.name });
       };
     })(f);
 
