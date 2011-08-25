@@ -1,0 +1,12 @@
+Task:
+
+Write a small command line application that reads this file (the one you are reading right now) from the disk. Change all occurences of the letter 'a' to an 'o'. Write the resulting text to a new file on disk. Only use asynchronous calls!
+
+Tips:
+
+- The node.js docs are your friend. Check out fs.readFile
+- The javascript replace method by default only replaces the first occurence of a match, use a regex with the "g" option to get a global replace
+
+Extra Credit
+
+- Prompt the user for a filename and read that file instead

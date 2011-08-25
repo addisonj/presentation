@@ -1,0 +1,12 @@
+Task
+
+Create a flickr-twitter mashup service. Allow the user to enter in a keyword and grab tweets and flickr photos that match the keyword using their respective API's. Display these together and allow the user to choose which tweet matches best with what photo.
+
+Tips
+
+- No tips, you got this!
+
+Extra Credit
+
+- Save the matches and allow other users to view them, throw in ratings to be really cool
+- Make it robust and put it out there!

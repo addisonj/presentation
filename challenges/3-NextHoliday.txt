@@ -1,0 +1,13 @@
+Task:
+
+Create a webserver that responds to all requests by informing the user of the next US holiday
+
+Tips:
+
+- Google has a public calender that shows the holidays, as well as a nice API the delivers the data in JSON format. The URL that will return the list of holidays till the end of the year is 'http://www.google.com/calendar/feeds/en.usa%23holiday%40group.v.calendar.google.com/public/basic?alt=jsonc&start-min=2011-08-24T00:00:00&start-max=2011-12-31T23:59:59&orderby=starttime&sortorder=a'
+- Node makes creating clients easy. Check out http.get() (or for more options, http.request()) method in the node.js docs
+
+Extra Credit:
+
+- Tell the user how long until the holiday
+- Optionally respond with a json object

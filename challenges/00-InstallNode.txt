@@ -1,0 +1,20 @@
+Task:
+
+Install Node.js
+
+Instructions:
+
+Linux/OSX
+
+1 - Visit Nodejs.org.
+2 - Download the newest 4.x release (5.x is development branch that is mostly concerned with windows stuff)
+3 - make
+4 - make install
+
+Windows
+
+0 - Install Virtual Box and Ubuntu and see above. Windows support is building, but not as good as for Linux. If you are stubborn, keep reading
+1 - Visit Nodejs.org
+2 - Download the newest 5.x release (better windows support than 4.x)
+3 - Copy node.exe somewhere (C:/node/node.exe)
+4 - Add the folder above to your path (for help: http://bit.ly/dMlXXi)

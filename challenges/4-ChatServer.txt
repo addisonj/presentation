@@ -1,0 +1,14 @@
+Task:
+
+Write a TCP chat server.
+
+Tips:
+
+- Don't cheat! This is a pretty common thing and their are lots of examples on the web. Instead, read the node.js docs for the "net" module and figure it out yourself
+- Use telnet or netcat to connect (most of you have probably never used either of these tools, but they boost your geek cred)
+- Make sure to handle disconnects, or things will crash!
+
+Extra Credit:
+
+- Make announcements when users join or leave
+- Implement a few server commands, such as '/list' to show all currently connected users

@@ -1,0 +1,15 @@
+Task:
+
+Install NPM
+
+Instructions:
+
+Linux/OSX
+
+1 - run 'curl http://npmjs.org/install.sh | sh'
+2 - celebrate
+
+Windows
+
+1 - npm is not yet supported, but
+2 - try this, some packages work: https://github.com/japj/ryppi (requires python)

@@ -1,0 +1,13 @@
+Task:
+
+Write a web server that responds to all requests with a simple "Hello World" message. Also, keep a server-side count of how many requests have been made and include this count in the response to the user.
+
+Tips:
+
+- Look at the Hello World example on nodejs.org
+- Anything not in the connection handler function is basically a global variable
+
+Extra Credit
+
+- Write to console whenever anyone connects
+- Keep track of how long the server is up

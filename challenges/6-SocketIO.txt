@@ -1,0 +1,13 @@
+Task:
+
+Create a basic implentation of Google Wave. For those of your who don't remember Wave (may it rest in peace), its a realtime chat and sharing app. Realtime as in you see what they type as they type. For this version, make the chat work and also allow users to share photos in realtime. 
+
+Tips
+
+- This sounds super hard, but Socket.IO makes it pretty easy. The hardest part is the photo uploads, which you can steal from the photoShare demo in the github repo
+- Look around for socket.IO webchat demos, there are lots of them and they give you a good start
+- Keep it simple, just make a single room and don't worry about user accounts
+
+Extra Credit
+- Along with showing what everyone is typing in realtime, show the position of their mouse!
+- Add on collaborative drawing (really hard, I will buy you a donut if you do this)

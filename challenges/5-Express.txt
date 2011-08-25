@@ -1,0 +1,15 @@
+Task:
+
+Create a twitter clone using Express. Allow users to post and delete messages. Don't worry about following other users or user authentication, just keep it simple. Make your api RESTful and follow the typical Rails RESTful mapping.  
+
+Tips
+
+- For info on REST, this section on the wikipedia page is good http://en.wikipedia.org/wiki/Representational_State_Transfer#RESTful_web_services
+- REST is just a style of designing your API, but Rails popularized a nice clean way of how to map your URLs to a single resource, this article explains it well http://www.calebscreek.com/2008/10/rest-crud-resources-with-ruby-on-rails/, just ignore the ruby ;)
+- Read the express guide (expressjs.com/guide), its a little thick, but with some patience you can get it!
+- You can either choose to persist date (use a database) or you can just store things in memory.
+
+Extra Credit
+
+- Forget what I said above and add in user authentication and the ability to follow other users
+- Optionally respond with JSON, so you can have a sweet API like twitter does!
