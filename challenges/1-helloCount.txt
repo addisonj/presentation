@@ -6,6 +6,7 @@ Tips:
 
 - Look at the Hello World example on nodejs.org
 - Anything not in the connection handler function is basically a global variable
+- If you notice the counter incrementing by two, no worries, your web browser makes an extra request for a favicon
 
 Extra Credit
 
