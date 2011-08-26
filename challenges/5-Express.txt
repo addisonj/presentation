@@ -12,4 +12,4 @@ Tips
 Extra Credit
 
 - Forget what I said above and add in user authentication and the ability to follow other users
-- Optionally respond with JSON, so you can have a sweet API like twitter does!
+
